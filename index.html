@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Questions App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1 id="welcome-message">Welcome to questions. Press the start button to get started</h1>
+    <button id="start-btn">Start</button>
+    <section id="question-section" aria-live="polite" style="display:none;">
+      <p id="question-text"></p>
+      <button id="next-btn">Next</button>
+    </section>
+  </main>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> 
