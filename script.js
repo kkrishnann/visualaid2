@@ -14,7 +14,7 @@ function showQuestion(index) {
   questionText.textContent = '';
   setTimeout(() => {
     questionText.textContent = questions[index];
-    nextBtn.focus();
+    // Don't auto-focus the Next button - let user Tab to it naturally
   }, 100);
 }
 
