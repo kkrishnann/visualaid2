@@ -3,6 +3,7 @@ const selectedSet = 'Interview'; // change this if needed
 let questions = window.questionSets[selectedSet];
 
 const startBtn = document.getElementById('start-btn');
+const grammarBtn = document.getElementById('grammar-btn');
 const nextBtn = document.getElementById('next-btn');
 const questionSection = document.getElementById('question-section');
 const questionText = document.getElementById('question-text');
@@ -34,4 +35,8 @@ nextBtn.addEventListener('click', () => {
   setTimeout(() => {
     showQuestion(currentQuestion);
   }, 500);
+});
+
+grammarBtn.addEventListener('click', () => {
+  window.location.href = 'grammar.html';
 }); 
