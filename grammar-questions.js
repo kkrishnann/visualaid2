@@ -1,6 +1,6 @@
 window.grammarQuestions = [
   {
-    question: "Use, 'see', in the past, perfect, tense.",
+    question: "Use, 'see', in the past perfect, tense.",
     answer: "She had seen that movie before"
   },
   {
