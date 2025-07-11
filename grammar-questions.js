@@ -26,5 +26,9 @@ window.grammarQuestions = [
   {
     question: "Use finish, in the present, perfect, tense.",
     answer: "I have finished my homework"
+  },
+  {
+    question: "Use think, in the future, perfect, tense",
+    answer: "By this time tomorrow, she will have thought of a solution to the problem."
   }
 ]; 
